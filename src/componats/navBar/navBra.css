@@ -1,0 +1,108 @@
+.navMain{
+    width: inherit;
+    padding: 2.2125%  9.375% 1.8% 9.375%;
+    box-sizing: border-box;
+
+}
+.logoCont{
+    display: flex;
+    flex-direction: row;
+    gap: 0.625%; 
+    align-items: center;
+    text-wrap: nowrap;
+}
+.logoCont img{
+    width: 3.5vw;
+    height: 3.5vw; /* 56px/1600 */
+}
+.logoCont h1{
+color: #474747;
+font-family: Playfair Display;
+font-size: 2.666688vw; /* 42.667px/1600 */
+font-style: italic;
+font-weight: 600;
+margin: 0px;
+
+}
+.navLinkRapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.9375vw; 
+    justify-content: space-between;
+}
+.navLinkCont{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.navLinkCont ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 0.5vw; /* 8px/1600 */
+    margin: 0px;
+
+}
+.navLinkCont li{
+    text-decoration: none;
+    padding: .25vw 1vw ; /* 4px/1600 */
+  /* 77px/1600 */
+    height: 2%; /* 32/1600 */
+    border-radius:   2.125vw; /* 34/1600 */
+    
+    text-align: center;
+    margin: 0px;
+   
+
+}
+
+.navLinkCont li .active{
+    background: #DBDFD0;
+    text-decoration: none;
+    padding: .55vw 1.3vw ; /* 4px/1600 */
+  /* 77px/1600 */
+    height: 2%; /* 32/1600 */
+    border-radius:   2.125vw; /* 34/1600 */
+    
+    text-align: center;
+   
+
+}
+.navLinkCont a{
+    text-decoration: none;
+    color: var(--neutral-07, #2C2F24);
+
+/* Body/16px/Medium */
+font-family: DM Sans;
+font-size: 1vw; /* 16/1600 */
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}
+.bookRap{
+    display: inline-flex;
+padding: .65vw 1.3vw; /* 24px/1600 */
+justify-content: center;
+align-items: center;
+height: 2vw; /* 48px/1600 */
+
+border-radius: 7.375vw; /* 118px/1600 */
+border: .1vw   solid var(--neutral-07, #2C2F24);
+
+}
+.bookRap button{
+    color: var(--neutral-07, #182226);
+text-align: right;
+background-color: transparent;
+border: none;
+/* Body/16px/Bold */
+font-family: DM Sans;
+font-size: 1vw;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+

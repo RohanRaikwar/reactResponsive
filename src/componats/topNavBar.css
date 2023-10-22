@@ -1,0 +1,50 @@
+.topNav {
+    width: inherit;
+    height: 2.8125vw; /* 45/1600 */
+     background: #474747;;
+    display: flex;
+    align-items: center;
+  
+    
+    flex-direction: row;
+    padding: 0px 9.375%; /* 150px/1600 */
+    box-sizing: border-box;
+    justify-content: space-around;
+  }
+  .contactRap {
+    width: inherit;
+    display: flex;
+   
+    flex-direction: row;
+    gap: 3.5625%; /* 25px/1600 */
+  }
+  .contactRap .singleContact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw; /* 8px/1600 */
+  }
+  .singleContact h1 {
+    color: var(--neutral-02, #f9f9f7);
+    text-wrap: nowrap;
+  
+    /* Body/16px/Regular */
+    font-family: DM Sans;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    /* 150% */
+  }
+  .singleContact img{
+    width: 1.2vw; 
+    height: 1.2vw;;
+  }
+  
+  .linkRapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    gap: 0.125vw; /* 2px/1600 */
+  }

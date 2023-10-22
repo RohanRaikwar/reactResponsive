@@ -1,0 +1,14 @@
+.main{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:  9px;
+    align-items: center;
+}
+img{
+    width: 1.698187vw; /* 27.171/1600 */
+    height: 1.698187vw; /* 27.171/1600 */
+}

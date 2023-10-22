@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,400;1,9..40,100&display=swap");
+
+.appMain {
+  width: 100%;
+}
+.topNav {
+  width: inherit;
+  height: 2.8125%; /* 45/1600 */
+   background: #474747;;
+  display: flex;
+  align-items: center;
+  height: 2.8125vw; /* 45px/1600 */
+ /* 16px/1600 */
+
+  
+  flex-direction: row;
+  padding: 0px 9.375%; /* 150px/1600 */
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.contactRap {
+  width: inherit;
+  display: flex;
+ 
+  flex-direction: row;
+  gap: 3.5625%; /* 25px/1600 */
+}
+.contactRap .singleContact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw; /* 8px/1600 */
+}
+.singleContact h1 {
+  color: var(--neutral-02, #f9f9f7);
+  text-wrap: nowrap;
+
+  /* Body/16px/Regular */
+  font-family: DM Sans;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  /* 150% */
+}
+.singleContact img{
+  width: 1.2vw; 
+  height: 1.2vw;
+}
+
+.linkRapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+  gap: 0.125vw; /* 2px/1600 */
+}
+.back{
+  width: inherit;
+  background-image: url(./assets/hh.png);
+  background-size: cover;
+  background-clip: content-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+  height: 44.5vw; /* 712px/1600 */
+}
+
+.textRap{
+  display: flex;
+  width: 41.6875vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 24.5vw;
+  justify-content: unset;
+  text-align: center;
+  gap: 2vw; /* 32px/1600 */
+
+
+}
+.textRap h1{
+  width: 41.6875vw; /* 667px/1600 */
+  color: var(--neutral-07, #2C2F24);
+text-align: center;
+
+/* Headline/H1 */
+font-family: Playfair Display;
+font-size: 6.25vw; /* 100/1600 */
+font-style: normal;
+font-weight: 400;
+line-height: 6vw; /* 96/1600 */
+
+}
+
+.textRap h2{
+
+  color: var(--neutral-07, #2C2F24);
+text-align: center;
+
+/* Body/20px/Regular */
+font-family: DM Sans;
+font-size: 1.25vw; /* 20/1600 */
+font-style: normal;
+font-weight: 400;
+width: 33.5625vw; /* 537/1600 */
+line-height: 2vw; /* 32/1600 */
+}
+
+.btnRap{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: center;
+}
+
+.btnRap button{
+  width: 10.625vw;
+  height: 4vw; /* 64/1600 */
+
+  display: flex;
+  padding: 1.2vw 2vw;
+  justify-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+ 
+  
+
+font-family: DM Sans;
+font-size: 1.2vw;
+font-style: normal;
+font-weight: 700;
+border-radius: 7.375vw; /* 118/1600 */
+
+border: 0.09375vw solid var(--neutral-07, #2C2F24);
+ /* 150% */
+}
+
+.btnRap button:first-child{
+  color: #FFFFFF;
+
+background: #AD343E;
+}

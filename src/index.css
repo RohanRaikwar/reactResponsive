@@ -1,0 +1,14 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,400;1,9..40,100&family=Playfair+Display:ital,wght@0,600;1,400;1,500;1,600&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,400;1,9..40,100&display=swap");
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background: var(--neutral-02, #F9F9F7);
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+  padding: 0px;
+}
